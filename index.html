@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 11: Géiser</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 11: Géiser</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender las huellas digitales y la reputación.</li>
+                                        <li>Simular la búsqueda de huella digital de un personaje ficticio y reflexionar sobre su impacto.</li>
+                                        <li>Identificar huellas visibles (fotos, comentarios, redes sociales).</li>
+                                        <li>Interpretar cómo se forma una imagen a partir de la huella digital.</li>
+                                        <li>Reflexionar sobre riesgos y oportunidades asociados a la exposición digital.</li>
+                                        <li>Analizar cómo las acciones en línea construyen una huella digital y su influencia en la reputación.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Conexión Ada</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge Express: Debate Oxford</strong></li>
+                                        <li><strong class="tactic-highlight">Ticket de Salida/Tweet de Aprendizaje</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Participación en un Debate Oxford sobre la visibilidad de la huella digital (argumentación y refutación).</li>
+                                        <li>Reflexión personal post-debate.</li>
+                                        <li>Creación individual de un "Principio sobre la Visibilidad Digital" (Tweet de Aprendizaje).</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Recuerdo Relámpago ⏰ 5 minutos</h2>
+                <p>Activar conocimientos de la Misión 10 (análisis de huella digital) a través de la síntesis conceptual.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Recuerdo Relámpago: Palabra Secreta Digital.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Vamos a iniciar con un análisis rápido. Voy a proyectar un concepto clave de la misión pasada. En silencio, escriban una frase que defina qué es y por qué es importante. <br>(En pantalla se proyecta: HUELLA DIGITAL)”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Realiza una breve reflexión guiada para cambiar el foco del análisis a la interpretación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Correcto, la huella digital es el rastro que dejamos. En la misión pasada, fuimos detectives que reconstruyeron una historia. Hoy, seremos intérpretes. 🤔 Un géiser es agua subterránea que, bajo presión, emerge a la superficie de forma espectacular. Nuestra huella digital es similar: son datos que están ahí, pero cuando alguien los busca, emergen y crean una imagen pública. ¿Esa imagen es una oportunidad o un riesgo? Vamos a debatirlo.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Conexión Ada ⏰ 22 minutos</h2>
+                <p>Explorar de forma individual cómo una misma huella digital puede ser interpretada de formas distintas y los riesgos/oportunidades que esto genera.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Conexión Ada ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Conexión Ada: Misión Géiser.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, conéctense a la plataforma. Ada les presentará casos donde una huella digital es interpretada por diferentes personas (un maestro, un amigo, un reclutador). Analicen cómo cambia la percepción. La clave de activación de hoy es: Misión Géiser 🌋. Escríbanla cuando se las pida.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Conexión Ada ⏰ 20 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Timer 20 min.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Challenge Express: Debate Oxford ⏰ 10 minutos</h2>
+                <p>Contextualizar el debate sobre los riesgos y oportunidades de tener una huella digital visible.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge Express: Debate Oxford ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Challenge Express: Debate Oxford.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Atención, intérpretes. Vamos a analizar una afirmación polémica. La dividiremos en dos bandos para un Debate Oxford. Un lado argumentará a favor, el otro en contra.<br>La afirmación es la siguiente:<br>‘Para un estudiante, es mejor tener un perfil público en redes sociales donde comparte sus talentos, proyectos y opiniones, aunque eso signifique que más gente vea su información.’<br>Un lado de la sala será el equipo A FAVOR, argumentando que mostrar tus talentos es una gran oportunidad. El otro lado será el equipo EN CONTRA, argumentando que compartir tanto es un riesgo innecesario. Prepárense para defender su postura.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge Express: Debate Oxford ⏰ 3 minutos</h3>
+                            <p>Pide a los equipos que discutan y preparen 2 o 3 argumentos clave para su bando, ya sea "A FAVOR" (oportunidad) o "EN CONTRA" (riesgo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“No importa cuál es su opinión personal. Su trabajo ahora es construir el caso más fuerte para la postura que les tocó. <br>• Equipo A FAVOR: Piensen en visibilidad para becas, proyectos, mostrar talento. 🌎<br>• Equipo EN CONTRA: Piensen en malinterpretaciones, pérdida de privacidad, errores del pasado. 🔒<br>Preparen sus argumentos. Tienen 3 minutos.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge Express: Debate Oxford ⏰ 3 minutos</h3>
+                            <p>Coordina el debate: un vocero de cada equipo presenta su argumento principal (1 min c/u), seguido de una refutación rápida (30 seg c/u).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Es momento del debate. Equipo A FAVOR, tienen 1 minuto para presentar su argumento más fuerte. [Tiempo]. Gracias. Ahora, Equipo EN CONTRA, tienen 1 minuto para presentar el suyo. [Tiempo]. Gracias. Ahora, cada equipo tiene 30 segundos para una refutación rápida.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge Express: Debate Oxford ⏰ 2 minutos</h3>
+                            <p>Guía una breve reflexión final, invitando a los estudiantes a compartir si su perspectiva inicial cambió después del debate.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Hemos escuchado argumentos sólidos de ambos lados. Ahora, independientemente del equipo en el que estaban, piensen para ustedes mismos: ¿Qué argumento del equipo contrario les pareció más convincente? ¿Su perspectiva inicial cambió en algo? Si alguien quiere compartir una reflexión, este es el momento.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Ticket de Salida/Tweet de Aprendizaje ⏰ 5 minutos</h2>
+                <p>Sintetizar el aprendizaje en un principio personal sobre la gestión de la visibilidad digital.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 9. Tweet de Aprendizaje.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Para cerrar, anoten una idea clave que se quieran llevar. Una frase que resuma su enfoque sobre la visibilidad de su huella digital.<br>Ejemplo del maestro: Mi huella es visible. Mi trabajo es asegurar que la historia que cuenta sea la que yo quiero. #VisibilidadConsciente<br>Piensen en cómo podrían aplicar esto en otra situación. Eso es lo que hace que valga la pena.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes que compartan su frase con un compañero y escuchen su idea.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Compartan su frase con la persona de al lado. Escuchen su idea. ¿En qué se parecen? ¿Qué pueden aprender de su perspectiva? El análisis mejora con el diálogo.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Ticket de Salida/Tweet de Aprendizaje ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Reflexión final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Hoy no solo analizaron una huella, la interpretaron. Entendieron que no es solo lo que dejamos, sino cómo se ve desde afuera. Han aprendido a pensar como estrategas, sopesando riesgos y oportunidades. Esa es una habilidad fundamental. Misión completada.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
